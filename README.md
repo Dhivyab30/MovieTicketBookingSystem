@@ -38,9 +38,13 @@ Before running the project, ensure the following are installed:
 Requirement	Version/Tools:
 --------------------------
 ✓ Java JDK	8 or above
+
 ✓ Database	MySQL / Oracle / PostgreSQL
+
 ✓ JDBC Driver	Corresponding to your database
+
 ✓ IDE (Optional)	Eclipse / IntelliJ IDEA / VS Code
+
 ✓ Maven (Optional)	For managing dependencies
 
 
