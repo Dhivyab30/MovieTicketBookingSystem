@@ -1,7 +1,5 @@
 # MovieTicketBookingSystem
 
-📘 Description:
----------------
 This project is a Java-based console application for booking movie tickets.
 It demonstrates core Java concepts (OOP, collections, and exception handling) and JDBC integration for interacting with a database.
 
