@@ -1,0 +1,37 @@
+Welcome to Movie Ticket Booking (Console Demo)
+
+1)List Movies
+2) View Shows for Movie
+3)Exit
+Choose: 1
+Movies:
+1) Leo (165 min) - Tamil
+2) Jailer (160 min) - Tamil
+3) Avengers: Endgame (180 min) - English
+4) Pushpa 2 (170 min) - Telugu
+-----------------------------------------------------------------------------------
+1)List Movies
+2) View Shows for Movie
+3)Exit
+Choose: 2
+Enter movie id: 1
+Shows:
+1) screen 1 at 2025-10-08 18:30 - price 250.00
+2) screen 2 at 2025-10-08 21:30 - price 300.00
+Enter show id to view seats / book (or 0 to cancel): 1
+Seats (SeatId : seatNo) - 'X' means booked for this show:
+1:A1 
+2:A2 (X)
+3:A3 
+4:A4 
+5:A5 
+Enter seat id to book(or 0 to cancel): 3
+Enter your Name:
+Dhivya
+Booking confirmed. Booking id: 101
+------------------------------------------------------------------------------------
+1)List Movies
+2) View Shows for Movie
+3)Exit
+Choose: 3
+Bye!
