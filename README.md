@@ -14,8 +14,6 @@ Users can:
 4.It follows a DAO (Data Access Object) design pattern for clean database interaction.
 
 
----
-
 🚀 Getting Started:
 --------------------
 This project can be run directly on any Java environment with database connectivity configured.
@@ -32,11 +30,6 @@ Steps Overview:
 
 
 4. Compile and run the Main.java file.
-
-
-
-
----
 
 🧱 Prerequisites:
 -----------------
@@ -61,10 +54,6 @@ Database Tables Required:
 
 ✓ Bookings
 
-
-
----
-
 ⚙️ Installation Steps:
 -----------------------
 
@@ -81,10 +70,6 @@ Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/movied
 javac org/anudip/main/Main.java
 java org.anudip.main.Main
 
-
-
-
----
 
 🧑‍💻 Usage / Running the Application:
 -----------------------------------
@@ -110,10 +95,6 @@ Example Flow:
 4. Choose a seat and enter your name → Confirms booking.
 
 
-
-
----
-
 🧪 Running Tests:
 ------------------
 
@@ -126,9 +107,6 @@ Example Flow:
 ✓ Verifying data in the database (bookings table updates correctly).
 
 
-
----
-
 🌐 Deployment:
 --------------
 This is a console-based project, so no web deployment is needed.
@@ -138,9 +116,6 @@ Extended into a web app using JSP/Servlets or Spring Boot.
 
 Deployed on a Tomcat server with a web interface.
 
-
-
----
 
 🛠️ Build With:
 --------------
@@ -154,9 +129,6 @@ Deployed on a Tomcat server with a web interface.
 
 ✓ Scanner (for console input)
 
-
-
----
 
 🏁 Conclusion:
 ---------------
