@@ -163,9 +163,9 @@ Deployed on a Tomcat server with a web interface.
 The Movie Ticket Booking System demonstrates a simple but powerful use of Java and JDBC for real-world database-driven applications.
 It helps beginners understand:
 
-Data access layers using DAO pattern
+Data access layers using DAO pattern.
 
-CRUD operations via JDBC
+CRUD operations via JDBC.
 
 Command-line interaction with database-backed logic.
 
