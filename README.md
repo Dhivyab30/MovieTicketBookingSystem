@@ -1,28 +1,25 @@
 # MovieTicketBookingSystem
 
-🎬 Movie Ticket Booking System 
-
 📘 Description:
-
+---------------
 This project is a Java-based console application for booking movie tickets.
 It demonstrates core Java concepts (OOP, collections, and exception handling) and JDBC integration for interacting with a database.
 
 Users can:
 
-View a list of movies
+1.View a list of movies
 
-Check available showtimes for a movie
+2.Check available showtimes for a movie
 
-View and book available seats for a selected show
+3.View and book available seats for a selected show
 
-
-It follows a DAO (Data Access Object) design pattern for clean database interaction.
+4.It follows a DAO (Data Access Object) design pattern for clean database interaction.
 
 
 ---
 
-🚀 Getting Started
-
+🚀 Getting Started:
+--------------------
 This project can be run directly on any Java environment with database connectivity configured.
 
 Steps Overview:
@@ -43,47 +40,43 @@ Steps Overview:
 
 ---
 
-🧱 Prerequisites
-
+🧱 Prerequisites:
+-----------------
 Before running the project, ensure the following are installed:
 
-Requirement	Version/Tool
-
-.Java JDK	8 or above
-.Database	MySQL / Oracle / PostgreSQL
-.JDBC Driver	Corresponding to your database
-.IDE (Optional)	Eclipse / IntelliJ IDEA / VS Code
-.Maven (Optional)	For managing dependencies
+Requirement	Version/Tools:
+--------------------------
+✓ Java JDK	8 or above
+✓ Database	MySQL / Oracle / PostgreSQL
+✓ JDBC Driver	Corresponding to your database
+✓ IDE (Optional)	Eclipse / IntelliJ IDEA / VS Code
+✓ Maven (Optional)	For managing dependencies
 
 
 Database Tables Required:
+-------------------------
+✓ Movies
 
-.movies
+✓ Showtimes
 
-.showtimes
+✓Seats
 
-.seats
-
-.bookings
+✓ Bookings
 
 
 
 ---
 
-⚙️ Installation Steps
+⚙️ Installation Steps:
+-----------------------
 
 1. Clone or Download the repository:
 
-git clone https://github.com/Dhivyab30/movie-ticket-booking.git
-
-
 2. Import Project into your IDE (Eclipse or IntelliJ).
-
 
 3. Configure Database Connection inside DAO classes:
 
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb", "root", "password");
-
 
 4. Compile and Run:
 
@@ -95,18 +88,18 @@ java org.anudip.main.Main
 
 ---
 
-🧑‍💻 Usage / Running the Application
-
+🧑‍💻 Usage / Running the Application:
+-----------------------------------
 Once you run the program, you’ll see:
 
 Welcome to Movie Ticket Booking (Console Demo)
 1) List Movies
 2) View Shows for Movie
 3) Exit
-Choose:
+Choose:1
 
 Example Flow:
-
+--------------
 1. Select 1 → Lists all movies.
 
 
@@ -123,24 +116,23 @@ Example Flow:
 
 ---
 
-🧪 Running Tests
+🧪 Running Tests:
+------------------
 
-You can manually test by:
+✓ You can manually test by:
 
-Booking the same seat twice (should show “Booking failed”).
+✓ Booking the same seat twice (should show “Booking failed”).
 
-Checking different show IDs and seat IDs.
+✓ Checking different show IDs and seat IDs.
 
-Verifying data in the database (bookings table updates correctly).
+✓ Verifying data in the database (bookings table updates correctly).
 
-
-(Optional: Add JUnit tests for DAO classes if you want automated testing.)
 
 
 ---
 
-🌐 Deployment
-
+🌐 Deployment:
+--------------
 This is a console-based project, so no web deployment is needed.
 However, it can later be:
 
@@ -152,24 +144,24 @@ Deployed on a Tomcat server with a web interface.
 
 ---
 
-🛠️ Build With
+🛠️ Build With:
+--------------
+✓ Java SE 8+
 
-*Java SE 8+
+✓ JDBC (Java Database Connectivity)
 
-*JDBC (Java Database Connectivity)
+✓ MySQL / PostgreSQL
 
-*MySQL / PostgreSQL
+✓ DAO Design Pattern
 
-*DAO Design Pattern
-
-*Scanner (for console input)
+✓ Scanner (for console input)
 
 
 
 ---
 
 🏁 Conclusion:
-
+---------------
 The Movie Ticket Booking System demonstrates a simple but powerful use of Java and JDBC for real-world database-driven applications.
 It helps beginners understand:
 
